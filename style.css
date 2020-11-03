@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "harry";
+  src: url("font/harrypotter.ttf");
+}
+
+.h250{
+  height: 250px;
+}
+.fond-ecran{
+  background-color: black;
+  background-image: url("images/hp_poudlard.jpg");
+  background-repeat: no-repeat;
+  background-position:center center ;
+  background-attachment: fixed;
+  background-size: 75vh;
+}
+p,h1{
+  color: antiquewhite;
+}
+.titre{
+  font-family:harry; text-align: center;
+  font-size: 50px;
+}
